@@ -7,7 +7,7 @@ export const StoreContext = createContext();
 const StoreContextProvider = ({ children }) => {
   const [token, setToken] = useState(localStorage.getItem("token") || null);
   const [notes, setNotes] = useState([]);
-  const url = "http://localhost:3000"; // backend server
+  const url = "https://note-app-backend-qscj.onrender.com"; // backend server
 
   // Sync token with localStorage
   useEffect(() => {
@@ -99,3 +99,4 @@ const StoreContextProvider = ({ children }) => {
 };
 
 export default StoreContextProvider;
+
