@@ -4,8 +4,7 @@ A responsive, full-stack note-taking web application built using the MERN stack.
 
 ## 🔗 Live Demo
 
-[👉 Click to View Live Project] https://task-app-frontend-jyq6.onrender.com
-
+[👉 Click to View Live Project] https://secure-note-app-6oga.onrender.com
 
 ---
 
